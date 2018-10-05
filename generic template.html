@@ -402,6 +402,11 @@
     <script>
         $(document).foundation();
         $(document).ready(function () {
+            //toggeling mobile side menu arrow
+            $(".mobile-menu-item-li").click(function(){
+                $(this).toggleClass("is-active");
+            });
+            //toggeling side menu
             $("#add_z_index_to_menu").click(function () {
                 if ($("#toggle-image").is(":visible")) {
                     $("#offCanvas").toggleClass("z-index-overlay");

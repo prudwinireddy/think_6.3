@@ -2512,3 +2512,6 @@ footer {}
 .menu.nested {
 	margin-left: 0px;
 }
+.is-active > .menu-accordion-title.at1::before{
+	content: url(../img/1-up.png);
+}
